@@ -1,0 +1,30 @@
+{
+  "name": "serial-number-generate",
+  "version": "1.0.2",
+  "description": "simple tool for gen serial number",
+  "main": "index.js",
+  "bin": {
+    "sng": "./index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WindOfNet/sng"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "windofnet <windofnet@hotmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3"
+  },
+  "dependencies": {
+    "clipboardy": "^3.0.0"
+  }
+}
